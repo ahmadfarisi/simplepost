@@ -43,6 +43,15 @@
 						
 						$sql_insert = "INSERT INTO tblsimplepost (name, email, date) VALUES ('$name', '$email', '$date')";
 						mysql_query($sql_insert) or die (mysql_error());
+					}
+				?>
+				
+				<?php
+					include("connection.php");
+					$sql_select = "SELECT*FROM tblsimplepost";
+					$result = mysql_query($sql_select) or die(mysql_error());
+					
+					if($result>0) {
 						
 						echo "
 							<h3>Registered User</h3>
