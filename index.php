@@ -11,12 +11,12 @@
 						<tr>
 							<td>Name</td>
 							<td>:</td>
-							<td><input type="text" name="txtName"/></td>
+							<td><input type="text" name="txtName" required/></td>
 						</tr>
 						<tr>
 							<td>Email</td>
 							<td>:</td>
-							<td><input type="text" name="txtEmail"/></td>
+							<td><input type="text" name="txtEmail" required/></td>
 						</tr>
 						<tr>
 							<td>&nbsp;</td>
