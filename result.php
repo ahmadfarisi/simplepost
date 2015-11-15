@@ -25,6 +25,7 @@
 						<td><?php echo $email ?></td>
 					</tr>
 				</table>
+				<a href="index.php">[ Back ]</a>
 		</fieldset>
 		
 	</body>
