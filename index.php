@@ -65,8 +65,6 @@
 								</tr>
 								";
 						
-						$sql_select = "SELECT*FROM tblsimplepost";
-						$result = mysql_query($sql_select) or die(mysql_error());
 						$i=1;
 						while($row=mysql_fetch_array($result)){
 							echo "
